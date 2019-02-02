@@ -10,7 +10,7 @@ body{
 
 header  {
     display: flex;
-    background-color: blue;
+    background-color: white;
     width: 100%;
     height: 60px;
 }
@@ -25,12 +25,14 @@ h1  {
 
 /* Nav Bar */
 
-nav {
+.nav {
     background-color: #FFDC78;
+    width: 100%;
     /* display: inline-grid; */
-    height: 40px;
+    height: 50px;
     margin: 0;
     padding: 0;
+    align-items: center;
     /* display: flex;  */
 }
 
@@ -38,11 +40,11 @@ ul  {
     list-style-type: none;
     /* text-decoration: none; */
     /* padding: 0; */
-    overflow: hidden;
-    /* justify-content: center;
-    align-items: center; */
+    /* overflow: hidden; */
+    justify-content: left;
     margin: 0;
     width: 100%;
+    padding: 10px 0 0 30px;
     display: flex;
     flex-direction: row;
 }
@@ -57,10 +59,10 @@ a   {
     font-family: 'Oswald', sans-serif;
     padding-right: 30px;
     /* display: inline; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0; */
     /* float: left;
     justify-content: left;
     align-items: center; */
@@ -77,6 +79,10 @@ a   {
     align-items: center;
     /* padding: 0; */
     /* margin: 0 auto; */
+}
+
+.navbarcolor:hover  {
+    color: #FD0E66;
 }
 
 /* Projects */
