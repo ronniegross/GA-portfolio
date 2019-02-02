@@ -1,0 +1,89 @@
+body{
+    /* display: grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: 55px 40px 500px; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ronnie Gross */
+
+header  {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 60px;
+}
+
+h1  {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #FD0E66;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Nav Bar */
+
+nav {
+    background-color: #FFDC78;
+    /* display: inline-grid; */
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    /* display: flex;  */
+}
+
+ul  {
+    list-style-type: none;
+    /* text-decoration: none; */
+    /* padding: 0; */
+    overflow: hidden;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+a   {
+    text-decoration: none;
+    
+}
+
+.navbar   {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 30px;
+    /* display: inline; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* float: left;
+    justify-content: left;
+    align-items: center; */
+    /* padding: 20px; */
+    /* padding: 0; */
+}
+
+.navbarcolor    {
+    color: #3D3D3D;
+    font-weight: bold;
+    font-size: 18px;
+    /* justify-content: center; */
+    justify-content: left;
+    align-items: center;
+    /* padding: 0; */
+    /* margin: 0 auto; */
+}
+
+/* Projects */
+
+main    {
+    /* grid-row: 3 / span 1;
+    grid-column: 1 / span 1; */
+    background-color: green;
+    height: 500px;
+}
