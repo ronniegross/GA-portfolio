@@ -7,6 +7,7 @@
     <title>HackerGrill</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header>
@@ -16,8 +17,31 @@
         <ul>
             <li class="navbar"><a class="navbarcolor" href="#">Projects</a></li>
             <li class="navbar"><a class="navbarcolor" href="aboutPage/about.html">About</a></li>
-            <li class="navbar"><a class="navbarcolor" href="#">Contact</a></li>
+            <li class="navbar"><a class="navbarcolor" id="contactLink">Contact</a></li>
         </ul>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modalContent">
+            <div id="exitArea">
+                <img src="exit.png" id="exitButton">
+            </div>
+            <h1>Hit me up!</h1>
+            <form>
+                <div class="name">
+                    <h2>name</h2>
+                    <input type="text">
+                </div>
+                <div class="email">
+                    <h2>email</h2>
+                    <input type="text">
+                </div>
+                <div class="message">
+                    <h2>message</h2>
+                    <input type="text">
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
     <main>
         <section class="project1">
@@ -49,4 +73,5 @@
         </section>
     </main>
 </body>
+<script src="contact.js"></script>
 </html>

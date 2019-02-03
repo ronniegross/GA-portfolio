@@ -1,0 +1,45 @@
+body    {
+    /* display: flex; */
+}
+
+.modal  {
+    display: none;
+    width: 100%;
+    /* margin-top: 30px; */
+    z-index: 1;
+    position: absolute;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.modalContent  {
+    width: 60%;
+    background-color: #3F64BB;
+    margin: 15% auto;
+}
+
+#exitArea   {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    float: right;
+}
+
+#exitArea:hover {
+    cursor: pointer;
+}
+
+#exitButton {
+    /* justify-content: flex-end; */
+    /* display: inline-block; */
+    margin: 25%
+}
+
+.modal h1   {
+    color: white;
+}
+
+.modal h2   {
+    color: white;
+}
