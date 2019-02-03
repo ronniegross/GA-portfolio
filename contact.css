@@ -9,6 +9,7 @@ body {
     /* margin-top: 30px; */
     z-index: 1;
     position: absolute;
+    overflow: auto;
     /* justify-content: center; */
     /* display: flex; */
     /* flex-direction: column; */
