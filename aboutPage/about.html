@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="about.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="../contact.css">
 </head>
 <body>
     <header>
@@ -18,17 +19,39 @@
             <ul>
                 <li class="navbar"><a class="navbarcolor" href="../index.html">Projects</a></li>
                 <li class="navbar"><a class="navbarcolor" href="#">About</a></li>
-                <li class="navbar"><a class="navbarcolor" href="#">Contact</a></li>
-            </ul>
+                <li class="navbar"><a class="navbarcolor" id="contactLink">Contact</a></li>            </ul>
         </div>
     </nav>
+    <div id="myModal" class="modal">
+            <div class="modalContent">
+                <div id="exitArea">
+                    <img src="../exit.png" id="exitButton">
+                </div>
+                <h1>Hit me up!</h1>
+                <form>
+                    <div class="name">
+                        <h2>name</h2>
+                        <input type="text" placeholder="your name here">
+                    </div>
+                    <div class="email">
+                        <h2>email</h2>
+                        <input type="text" placeholder="your email here">
+                    </div>
+                    <div class="message">
+                        <h2>message</h2>
+                        <textarea type="text" placeholder="your message here"></textarea>
+                    </div>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
     <main>
-        <img src="https://i.imgur.com/N19sK.jpg" alt="Headshot">
+        <img src="https://i.imgur.com/N19sK.jpg" alt="Headshot" id="headshot">
         <section>
             <p>RONNIE GROSS<br>DESIGN PHILOSOPHY<br>asymmetrical DIY fashion axe street art scenester typewriter Neutra Kickstarter heirloom bespoke wolf American Apparel Schlitz 3 wolf moon twee umami Brooklyn farm-to-table brunch master cleanse kogi VHS hella Shoreditch XOXO Odd Future letterpress gastropub artisan authentic disrupt four loko High Life cred meh craft beer skateboard wayfarers trust fund put a bird on it sriracha Blue Bottle you probably haven't heard of them biodiesel actually deep v retro Wes Anderson freegan narwhal fingerstache try-hard viral beard drinking vinegar organic Banksy single-origin coffee cardigan Cosby sweater stumptown swag Bushwick squid paleo tousled lo-fi locavore hashtag kale chips aesthetic Williamsburg tote bag vinyl 8-bit hoodie Carles pop-up banjo vegan dreamcatcher fixie Echo Park chillwave synth YOLO normcore flexitarian bicycle rights sartorial before they sold out semiotics small batch raw denim forage whatever readymade McSweeney's jean shorts selvage Pinterest blog cray ennui photo booth ugh quinoa chambray polaroid fap tattooed bitters Intelligentsia Etsy PBR&B salvia pour-over Marfa flannel roof party Tumblr cliche leggings literally ethical yr PBR pug selfies iPhone sustainable mlkshk messenger bag post-ironic meggings Thundercats Vice direct trade  occupy plaid pork belly banh mi cornhole crucifix irony butcher Truffaut 90's food truck chia church-key next level shabby chic tofu seitan Helvetica Tonx distillery Portland +1 slow-carb fanny pack art party keffiyeh Godard gentrify kitsch Pitchfork keytar pickled mumblecore mixtape mustache Austin gluten-free lomo
             </p>
         </section>
     </main>
-    
 </body>
+<script src="../contact.js"></script>
 </html>

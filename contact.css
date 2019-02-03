@@ -79,3 +79,17 @@ textarea {
     font-size: 18px;
     /* line-height: 50px; */
 }
+
+@media  (max-width: 650px)  {
+    .modal h1 {
+        font-size: 30px;
+        /* overflow: hidden; */
+    }
+
+    .modalContent {
+        width: 80%;
+        height: 65%;
+        background-color: #3F64BB;
+        margin: 15% auto;
+    }
+}
