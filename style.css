@@ -57,7 +57,7 @@ a   {
 .navbar   {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    padding-right: 30px;
+    padding-right: 60px;
     /* display: inline; */
     /* display: flex;
     justify-content: center;
@@ -130,6 +130,7 @@ h2  {
     font-weight: bold;
     color: #3D3D3D;
     margin: 20px 0 12px 0;
+    font-size: 20px;
 }
 
 .description    {

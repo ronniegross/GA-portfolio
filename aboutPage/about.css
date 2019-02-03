@@ -50,7 +50,7 @@ a   {
 .navbar   {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    padding-right: 30px;
+    padding-right: 60px;
     /* display: inline; */
     /* display: flex;
     justify-content: center;
@@ -77,11 +77,31 @@ a   {
 .navbarcolor:hover  {
     color: #FD0E66;
 }
-
-body    {
+main    {
     display: flex;
+    flex-direction: row;
+    /* margin: 0;
+    padding: 0; */
 }
+
 img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    margin: 30px 0 0 30px;
+    justify-content: flex start;
+}
+
+section {
+    width: 60%;
+    height: 300px;
+    margin: 23px 30px 0 30px;
     justify-content: flex-end;
-    align-content: flex-start;
+}
+p   {
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-weight: 700; */
+    margin: 0;
+    padding: 0;
 }
