@@ -95,7 +95,7 @@ main    {
     height: 300px;
     object-fit: cover;
     margin: 30px 0 0 30px;
-    justify-content: flex start;
+    /* justify-content: flex start; */
 }
 
 section {
